@@ -10,7 +10,7 @@ license = "LGPL-3.0-only"
 include = ["nixops_digitalocean/nix/*.nix"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.9, <3.11"
 python-digitalocean = "^1.15.0"
 nixops = { git = "https://github.com/rdparker/nixops.git" }
 
